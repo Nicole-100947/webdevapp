@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel-"style sheet"type-"text/css" href-"style.css>
+    <link rel-"stylesheet"type-"text/css" href-"style.css">
 </head>
 <body>
     <div id-"frm">
@@ -18,8 +18,8 @@
       </p> 
       
      <p>
-        <label>Username:</label>
-        <input type-"submit" id-"btn" value-"login" />
+        
+        <input type-"submit" id-"pass" name-"pass" />
      </p>
      </form>
    </div>                                 
