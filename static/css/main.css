@@ -1,0 +1,64 @@
+h1 {
+    font-weight: 300;
+    text-align: center;
+    color: #000080;
+    font-style: oblique;
+    font-family: fantasy
+    font-size: 32px;
+}
+.vl {
+    border-left: 2px solid gray;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+
+}
+#container{
+    width: 1366px;
+    overflow: hidden;
+}
+
+#sliderbox{
+    position: relative;
+    width: 3321px;
+    animation-name: slideranimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+    float: left;
+
+}
+
+@keyframes slideranimation{
+
+    0%
+    {
+        left: 0px;
+    }
+
+    20%
+    {
+        left: -150px;
+    }
+    40%
+    {
+        left: -400px;
+    }
+
+    60%
+    {
+        left: -800px;
+    }
+    80%
+    {
+        left: -1300px;
+    }
+    100%
+    {
+        left: -1660px;
+    }
+
+}
